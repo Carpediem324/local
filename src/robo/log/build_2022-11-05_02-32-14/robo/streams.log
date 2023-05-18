@@ -1,0 +1,19 @@
+[0.836s] Invoking command in '/ws/src/robo/build/robo': PYTHONPATH=/ws/src/robo/install/robo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /ws/src/robo/install/robo --editable --build-directory /ws/src/robo/build/robo/build --no-deps install_data --install-dir /ws/src/robo/install/robo
+[1.094s] running develop
+[1.190s] running egg_info
+[1.190s] writing robo.egg-info/PKG-INFO
+[1.191s] writing dependency_links to robo.egg-info/dependency_links.txt
+[1.191s] writing entry points to robo.egg-info/entry_points.txt
+[1.192s] writing requirements to robo.egg-info/requires.txt
+[1.192s] writing top-level names to robo.egg-info/top_level.txt
+[1.228s] reading manifest file 'robo.egg-info/SOURCES.txt'
+[1.229s] writing manifest file 'robo.egg-info/SOURCES.txt'
+[1.277s] running build_ext
+[1.279s] Creating /ws/src/robo/install/robo/lib/python3.8/site-packages/robo.egg-link (link to .)
+[1.280s] Installing PathPublisher script to /ws/src/robo/install/robo/lib/robo
+[1.280s] Installing move script to /ws/src/robo/install/robo/lib/robo
+[1.281s] Installing move_circle script to /ws/src/robo/install/robo/lib/robo
+[1.281s] 
+[1.282s] Installed /ws/src/robo/build/robo
+[1.282s] running install_data
+[1.373s] Invoked command in '/ws/src/robo/build/robo' returned '0': PYTHONPATH=/ws/src/robo/install/robo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /ws/src/robo/install/robo --editable --build-directory /ws/src/robo/build/robo/build --no-deps install_data --install-dir /ws/src/robo/install/robo

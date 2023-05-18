@@ -1,0 +1,104 @@
+[1.070s] Invoking command in '/ws/src/build/rover': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/rover -DCMAKE_INSTALL_PREFIX=/ws/src/install/rover
+[1.161s] -- The C compiler identification is GNU 9.4.0
+[1.228s] -- The CXX compiler identification is GNU 9.4.0
+[1.232s] -- Check for working C compiler: /usr/bin/cc
+[1.319s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.321s] -- Detecting C compiler ABI info
+[1.406s] -- Detecting C compiler ABI info - done
+[1.415s] -- Detecting C compile features
+[1.416s] -- Detecting C compile features - done
+[1.418s] -- Check for working CXX compiler: /usr/bin/c++
+[1.503s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.504s] -- Detecting CXX compiler ABI info
+[1.592s] -- Detecting CXX compiler ABI info - done
+[1.602s] -- Detecting CXX compile features
+[1.602s] -- Detecting CXX compile features - done
+[1.605s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.635s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.635s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.862s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.903s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.919s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.027s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.061s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.192s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.311s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[2.509s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.522s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.622s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.641s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.641s] -- Configured cppcheck include dirs: 
+[2.642s] -- Configured cppcheck exclude dirs and/or files: 
+[2.660s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.660s] -- Configured cpplint exclude dirs and/or files: 
+[2.664s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.671s] -- Added test 'lint_cmake' to check CMake code style
+[2.675s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.695s] -- Added test 'uncrustify' to check C / C++ code style
+[2.695s] -- Configured uncrustify additional arguments: 
+[2.699s] -- Added test 'xmllint' to check XML markup files
+[2.704s] -- Configuring done
+[2.709s] -- Generating done
+[2.712s] -- Build files have been written to: /ws/src/build/rover
+[2.723s] Invoked command in '/ws/src/build/rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/rover -DCMAKE_INSTALL_PREFIX=/ws/src/install/rover
+[2.724s] Invoking command in '/ws/src/build/rover': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/rover -- -j16 -l16
+[2.800s] Invoked command in '/ws/src/build/rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/rover -- -j16 -l16
+[2.840s] Invoking command in '/ws/src/build/rover': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/rover
+[2.855s] -- Install configuration: ""
+[2.855s] -- Installing: /ws/src/install/rover/share/rover/launch
+[2.856s] -- Installing: /ws/src/install/rover/share/rover/launch/rover1.launch.py
+[2.856s] -- Installing: /ws/src/install/rover/share/rover/launch/rover.launch.py
+[2.857s] -- Installing: /ws/src/install/rover/share/rover/models
+[2.857s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_depth_camera
+[2.858s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_depth_camera/model.config
+[2.859s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_depth_camera/model.sdf
+[2.859s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_depth_camera/README.md
+[2.860s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_camera
+[2.860s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_camera/model.config
+[2.862s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_camera/model.sdf
+[2.862s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_camera/README.md
+[2.863s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_1d_lidar
+[2.863s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_1d_lidar/model.config
+[2.863s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_1d_lidar/model.sdf
+[2.863s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_1d_lidar/README.md
+[2.863s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description
+[2.864s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes
+[2.864s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/bicep.stl
+[2.864s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/wheel.stl
+[2.864s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/wrist.stl
+[2.865s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/arm_base.stl
+[2.866s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/elbow.stl
+[2.866s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/robot_base.stl
+[2.866s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/model.config
+[2.866s] -- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/model.sdf
+[2.867s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_2d_lidar
+[2.867s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_2d_lidar/model.config
+[2.867s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_2d_lidar/model.sdf
+[2.867s] -- Installing: /ws/src/install/rover/share/rover/models/rover_with_2d_lidar/README.md
+[2.867s] -- Installing: /ws/src/install/rover/share/rover/models/project_model
+[2.867s] -- Installing: /ws/src/install/rover/share/rover/models/project_model/model.config
+[2.868s] -- Installing: /ws/src/install/rover/share/rover/models/project_model/model.sdf
+[2.868s] -- Installing: /ws/src/install/rover/share/rover/models/project_model/README.md
+[2.868s] -- Installing: /ws/src/install/rover/share/rover/src
+[2.868s] -- Installing: /ws/src/install/rover/share/rover/worlds
+[2.868s] -- Installing: /ws/src/install/rover/share/rover/worlds/race3.world
+[2.868s] -- Installing: /ws/src/install/rover/share/rover/worlds/race1.world
+[2.868s] -- Installing: /ws/src/install/rover/share/rover/worlds/race4.world
+[2.868s] -- Installing: /ws/src/install/rover/share/rover/worlds/race2.world
+[2.869s] -- Installing: /ws/src/install/rover/share/ament_index/resource_index/package_run_dependencies/rover
+[2.869s] -- Installing: /ws/src/install/rover/share/ament_index/resource_index/parent_prefix_path/rover
+[2.869s] -- Installing: /ws/src/install/rover/share/rover/environment/ament_prefix_path.sh
+[2.869s] -- Installing: /ws/src/install/rover/share/rover/environment/ament_prefix_path.dsv
+[2.870s] -- Installing: /ws/src/install/rover/share/rover/environment/path.sh
+[2.870s] -- Installing: /ws/src/install/rover/share/rover/environment/path.dsv
+[2.870s] -- Installing: /ws/src/install/rover/share/rover/local_setup.bash
+[2.870s] -- Installing: /ws/src/install/rover/share/rover/local_setup.sh
+[2.871s] -- Installing: /ws/src/install/rover/share/rover/local_setup.zsh
+[2.871s] -- Installing: /ws/src/install/rover/share/rover/local_setup.dsv
+[2.871s] -- Installing: /ws/src/install/rover/share/rover/package.dsv
+[2.871s] -- Installing: /ws/src/install/rover/share/ament_index/resource_index/packages/rover
+[2.872s] -- Installing: /ws/src/install/rover/share/rover/cmake/roverConfig.cmake
+[2.872s] -- Installing: /ws/src/install/rover/share/rover/cmake/roverConfig-version.cmake
+[2.872s] -- Installing: /ws/src/install/rover/share/rover/package.xml
+[2.879s] Invoked command in '/ws/src/build/rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/rover

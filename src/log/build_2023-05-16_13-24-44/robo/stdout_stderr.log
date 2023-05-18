@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/robo/robo.egg-info
+writing ../build/robo/robo.egg-info/PKG-INFO
+writing dependency_links to ../build/robo/robo.egg-info/dependency_links.txt
+writing entry points to ../build/robo/robo.egg-info/entry_points.txt
+writing requirements to ../build/robo/robo.egg-info/requires.txt
+writing top-level names to ../build/robo/robo.egg-info/top_level.txt
+writing manifest file '../build/robo/robo.egg-info/SOURCES.txt'
+reading manifest file '../build/robo/robo.egg-info/SOURCES.txt'
+writing manifest file '../build/robo/robo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ws/src/build/robo/build
+creating /ws/src/build/robo/build/lib
+creating /ws/src/build/robo/build/lib/robo
+copying robo/__init__.py -> /ws/src/build/robo/build/lib/robo
+copying robo/move_circle.py -> /ws/src/build/robo/build/lib/robo
+copying robo/move.py -> /ws/src/build/robo/build/lib/robo
+copying robo/PathPublisher.py -> /ws/src/build/robo/build/lib/robo
+running install
+running install_lib
+creating /ws/src/install/robo/lib/python3.8/site-packages/robo
+copying /ws/src/build/robo/build/lib/robo/PathPublisher.py -> /ws/src/install/robo/lib/python3.8/site-packages/robo
+copying /ws/src/build/robo/build/lib/robo/move.py -> /ws/src/install/robo/lib/python3.8/site-packages/robo
+copying /ws/src/build/robo/build/lib/robo/__init__.py -> /ws/src/install/robo/lib/python3.8/site-packages/robo
+copying /ws/src/build/robo/build/lib/robo/move_circle.py -> /ws/src/install/robo/lib/python3.8/site-packages/robo
+byte-compiling /ws/src/install/robo/lib/python3.8/site-packages/robo/PathPublisher.py to PathPublisher.cpython-38.pyc
+byte-compiling /ws/src/install/robo/lib/python3.8/site-packages/robo/move.py to move.cpython-38.pyc
+byte-compiling /ws/src/install/robo/lib/python3.8/site-packages/robo/__init__.py to __init__.cpython-38.pyc
+byte-compiling /ws/src/install/robo/lib/python3.8/site-packages/robo/move_circle.py to move_circle.cpython-38.pyc
+running install_data
+creating /ws/src/install/robo/share/ament_index
+creating /ws/src/install/robo/share/ament_index/resource_index
+creating /ws/src/install/robo/share/ament_index/resource_index/packages
+copying resource/robo -> /ws/src/install/robo/share/ament_index/resource_index/packages
+copying package.xml -> /ws/src/install/robo/share/robo
+running install_egg_info
+Copying ../build/robo/robo.egg-info to /ws/src/install/robo/lib/python3.8/site-packages/robo-0.0.0-py3.8.egg-info
+running install_scripts
+Installing PathPublisher script to /ws/src/install/robo/lib/robo
+Installing move script to /ws/src/install/robo/lib/robo
+Installing move_circle script to /ws/src/install/robo/lib/robo
+writing list of installed files to '/ws/src/build/robo/install.log'

@@ -1,0 +1,6 @@
+Invoking command in '/ws/src/rover/build/rover': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/rover -DCMAKE_INSTALL_PREFIX=/ws/src/rover/install/rover
+Invoked command in '/ws/src/rover/build/rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/rover -DCMAKE_INSTALL_PREFIX=/ws/src/rover/install/rover
+Invoking command in '/ws/src/rover/build/rover': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/rover/build/rover -- -j8 -l8
+Invoked command in '/ws/src/rover/build/rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/rover/build/rover -- -j8 -l8
+Invoking command in '/ws/src/rover/build/rover': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/rover/build/rover
+Invoked command in '/ws/src/rover/build/rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/rover/build/rover

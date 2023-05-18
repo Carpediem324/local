@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000207] (rover) JobQueued: {'identifier': 'rover', 'dependencies': OrderedDict()}
+[0.000323] (rover) JobStarted: {'identifier': 'rover'}
+[0.031834] (rover) JobProgress: {'identifier': 'rover', 'progress': 'cmake'}
+[0.033646] (rover) Command: {'cmd': ['/usr/bin/cmake', '/ws/src/rover', '-DCMAKE_INSTALL_PREFIX=/ws/src/rover/install/rover'], 'cwd': '/ws/src/rover/build/rover', 'env': OrderedDict([('HOSTNAME', 'shinhyeonhak-virtual-machine'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/ws/src/rover/build/rover'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099177] (-) TimerEvent: {}
+[0.170877] (rover) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.198916] (rover) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199244] (-) TimerEvent: {}
+[0.300090] (-) TimerEvent: {}
+[0.340743] (rover) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.380657] (rover) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.400304] (-) TimerEvent: {}
+[0.421127] (rover) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.432339] (rover) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.501337] (-) TimerEvent: {}
+[0.602068] (-) TimerEvent: {}
+[0.628907] (rover) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.702390] (rover) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.702572] (-) TimerEvent: {}
+[0.803022] (-) TimerEvent: {}
+[0.825559] (rover) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)\n'}
+[0.903785] (-) TimerEvent: {}
+[1.004956] (-) TimerEvent: {}
+[1.029571] (rover) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.047074] (rover) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.105281] (-) TimerEvent: {}
+[1.136521] (rover) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.157550] (rover) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.157928] (rover) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.158040] (rover) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.172344] (rover) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.172604] (rover) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.175241] (rover) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.179197] (rover) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.181718] (rover) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.194287] (rover) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.194540] (rover) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.196728] (rover) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.205438] (rover) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.205676] (-) TimerEvent: {}
+[1.213690] (rover) StdoutLine: {'line': b'-- Generating done\n'}
+[1.214975] (rover) StdoutLine: {'line': b'-- Build files have been written to: /ws/src/rover/build/rover\n'}
+[1.228036] (rover) CommandEnded: {'returncode': 0}
+[1.229032] (rover) JobProgress: {'identifier': 'rover', 'progress': 'build'}
+[1.231009] (rover) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ws/src/rover/build/rover', '--', '-j8', '-l8'], 'cwd': '/ws/src/rover/build/rover', 'env': OrderedDict([('HOSTNAME', 'shinhyeonhak-virtual-machine'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/ws/src/rover/build/rover'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.272104] (rover) CommandEnded: {'returncode': 0}
+[1.298678] (rover) JobProgress: {'identifier': 'rover', 'progress': 'install'}
+[1.306750] (-) TimerEvent: {}
+[1.309972] (rover) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ws/src/rover/build/rover'], 'cwd': '/ws/src/rover/build/rover', 'env': OrderedDict([('HOSTNAME', 'shinhyeonhak-virtual-machine'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/ws/src/rover/build/rover'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.317233] (rover) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.317811] (rover) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.318271] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/launch/rover.launch.py\n'}
+[1.327081] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/launch/rover1.launch.py\n'}
+[1.336410] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/basic_mobile_bot_description/meshes/arm_base.stl\n'}
+[1.344746] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/basic_mobile_bot_description/meshes/bicep.stl\n'}
+[1.353139] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/basic_mobile_bot_description/meshes/elbow.stl\n'}
+[1.361764] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/basic_mobile_bot_description/meshes/robot_base.stl\n'}
+[1.370551] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/basic_mobile_bot_description/meshes/wheel.stl\n'}
+[1.379621] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/basic_mobile_bot_description/meshes/wrist.stl\n'}
+[1.388564] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/basic_mobile_bot_description/model.config\n'}
+[1.397412] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/basic_mobile_bot_description/model.sdf\n'}
+[1.405877] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_1d_lidar/README.md\n'}
+[1.407656] (-) TimerEvent: {}
+[1.415155] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_1d_lidar/model.config\n'}
+[1.423859] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_1d_lidar/model.sdf\n'}
+[1.432580] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_2d_lidar/README.md\n'}
+[1.441373] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_2d_lidar/model.config\n'}
+[1.449548] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_2d_lidar/model.sdf\n'}
+[1.457912] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_camera/README.md\n'}
+[1.466264] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_camera/model.config\n'}
+[1.474938] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_camera/model.sdf\n'}
+[1.483436] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_depth_camera/README.md\n'}
+[1.492876] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_depth_camera/model.config\n'}
+[1.501772] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/models/rover_with_depth_camera/model.sdf\n'}
+[1.508853] (-) TimerEvent: {}
+[1.510621] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/worlds/race1.world\n'}
+[1.518450] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/worlds/race2.world\n'}
+[1.526479] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/worlds/race3.world\n'}
+[1.535739] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/worlds/race4.world\n'}
+[1.544672] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/ament_index/resource_index/package_run_dependencies/rover\n'}
+[1.553516] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/ament_index/resource_index/parent_prefix_path/rover\n'}
+[1.562268] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/environment/ament_prefix_path.sh\n'}
+[1.570765] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/environment/ament_prefix_path.dsv\n'}
+[1.579755] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/environment/path.sh\n'}
+[1.588864] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/environment/path.dsv\n'}
+[1.597700] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/local_setup.bash\n'}
+[1.606711] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/local_setup.sh\n'}
+[1.609743] (-) TimerEvent: {}
+[1.614906] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/local_setup.zsh\n'}
+[1.623064] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/local_setup.dsv\n'}
+[1.631745] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/package.dsv\n'}
+[1.640966] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/ament_index/resource_index/packages/rover\n'}
+[1.648872] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/cmake/roverConfig.cmake\n'}
+[1.657239] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/cmake/roverConfig-version.cmake\n'}
+[1.666665] (rover) StdoutLine: {'line': b'-- Symlinking: /ws/src/rover/install/rover/share/rover/package.xml\n'}
+[1.677908] (rover) CommandEnded: {'returncode': 0}
+[1.711095] (-) TimerEvent: {}
+[1.751858] (rover) JobEnded: {'identifier': 'rover', 'rc': 0}
+[1.753625] (-) EventReactorShutdown: {}

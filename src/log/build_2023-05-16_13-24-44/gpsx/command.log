@@ -1,0 +1,6 @@
+Invoking command in '/ws/src/build/gpsx': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/ros2GPSx/gpsx -DCMAKE_INSTALL_PREFIX=/ws/src/install/gpsx
+Invoked command in '/ws/src/build/gpsx' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/ros2GPSx/gpsx -DCMAKE_INSTALL_PREFIX=/ws/src/install/gpsx
+Invoking command in '/ws/src/build/gpsx': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/gpsx -- -j16 -l16
+Invoked command in '/ws/src/build/gpsx' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/gpsx -- -j16 -l16
+Invoking command in '/ws/src/build/gpsx': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/gpsx
+Invoked command in '/ws/src/build/gpsx' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/gpsx

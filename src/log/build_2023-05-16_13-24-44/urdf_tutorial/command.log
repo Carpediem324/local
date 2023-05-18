@@ -1,0 +1,6 @@
+Invoking command in '/ws/src/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/lec_ws/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/ws/src/install/urdf_tutorial
+Invoked command in '/ws/src/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/lec_ws/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/ws/src/install/urdf_tutorial
+Invoking command in '/ws/src/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/urdf_tutorial -- -j16 -l16
+Invoked command in '/ws/src/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/urdf_tutorial -- -j16 -l16
+Invoking command in '/ws/src/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/urdf_tutorial
+Invoked command in '/ws/src/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/urdf_tutorial

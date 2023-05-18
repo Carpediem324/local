@@ -1,0 +1,2 @@
+/ws/src/build/gpsx/rosidl_adapter/gpsx:msg/Gpsx.idl
+/ws/src/build/gpsx/rosidl_adapter/gpsx:srv/GetSatList.idl

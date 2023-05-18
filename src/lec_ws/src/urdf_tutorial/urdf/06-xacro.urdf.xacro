@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="xacro">
+ <material name="blue"> <color rgba="0 0 0.8 1"/> </material>
+ <material name="white"> <color rgba="1 1 1 1"/> </material>
+ <xacro:macro name="leg" params="name">
+ <link name="${name}">
+ <visual>
+ <geometry>
+ <box size="0.6 0.1 0.2"/>
+ </geometry>
+ <origin rpy="0 1.57075 0" xyz="0 0 -0.3"/>
+ <material name="white"/>
+ </visual>
+ </link>
+ </xacro:macro>
+ <link name="base_link">
+ <visual>
+ <geometry>
+ <cylinder length="0.6" radius="0.2"/>
+ </geometry>
+ <material name="blue"/>
+ </visual>
+ </link>
+ <xacro:leg name="right_leg" />
+ <xacro:leg name="left_leg" />
+ <joint name="base_to_right_leg" type="continuous">
+ <parent link="base_link"/>
+ <child link="right_leg"/>
+ <axis xyz="0 1 0"/>
+ <origin xyz="0 -0.22 0.25"/>
+ </joint>
+ <joint name="base_to_left_leg" type="continuous">
+ <parent link="base_link"/>
+ <child link="left_leg"/>
+ <axis xyz="0 1 0"/>
+ <origin xyz="0 0.22 0.25"/>
+ </joint>
+</robot>
+

@@ -1,0 +1,3 @@
+[console_scripts]
+imu = imu_ros2:main
+

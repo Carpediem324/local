@@ -1,0 +1,58 @@
+[0.035s] Invoking command in '/ws/src/rover/build/rover': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/rover -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/rover/install/rover
+[0.437s] -- The C compiler identification is GNU 9.4.0
+[0.628s] -- The CXX compiler identification is GNU 9.4.0
+[0.645s] -- Check for working C compiler: /usr/bin/cc
+[0.724s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.727s] -- Detecting C compiler ABI info
+[0.797s] -- Detecting C compiler ABI info - done
+[0.809s] -- Detecting C compile features
+[0.810s] -- Detecting C compile features - done
+[0.815s] -- Check for working CXX compiler: /usr/bin/c++
+[0.905s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.906s] -- Detecting CXX compiler ABI info
+[1.006s] -- Detecting CXX compiler ABI info - done
+[1.017s] -- Detecting CXX compile features
+[1.018s] -- Detecting CXX compile features - done
+[1.033s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.071s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.072s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.314s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.392s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.544s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.585s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.801s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.949s] -- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+[2.194s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.216s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.329s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.339s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.339s] -- Configured cppcheck include dirs: 
+[2.339s] -- Configured cppcheck exclude dirs and/or files: 
+[2.348s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.348s] -- Configured cpplint exclude dirs and/or files: 
+[2.350s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.354s] -- Added test 'lint_cmake' to check CMake code style
+[2.356s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.366s] -- Added test 'uncrustify' to check C / C++ code style
+[2.367s] -- Configured uncrustify additional arguments: 
+[2.368s] -- Added test 'xmllint' to check XML markup files
+[2.373s] -- Configuring done
+[2.376s] -- Generating done
+[2.377s] -- Build files have been written to: /ws/src/rover/build/rover
+[2.385s] Invoked command in '/ws/src/rover/build/rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/rover -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/rover/install/rover
+[2.388s] Invoking command in '/ws/src/rover/build/rover': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/rover/build/rover -- -j8 -l8
+[2.433s] Invoked command in '/ws/src/rover/build/rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/rover/build/rover -- -j8 -l8
+[2.469s] Invoking command in '/ws/src/rover/build/rover': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/rover/build/rover
+[2.476s] -- Install configuration: ""
+[2.477s] -- Execute custom install script
+[2.479s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[2.479s]   ament_cmake_symlink_install_directory() can't find '/ws/src/rover/config'
+[2.479s] Call Stack (most recent call first):
+[2.480s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[2.480s]   cmake_install.cmake:41 (include)
+[2.480s] 
+[2.480s] 
+[2.481s] Invoked command in '/ws/src/rover/build/rover' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/rover/build/rover

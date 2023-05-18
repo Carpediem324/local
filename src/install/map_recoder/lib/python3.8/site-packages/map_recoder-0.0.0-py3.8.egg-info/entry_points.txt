@@ -1,0 +1,3 @@
+[console_scripts]
+map_recoder = map_recoder.map_recoder:main
+

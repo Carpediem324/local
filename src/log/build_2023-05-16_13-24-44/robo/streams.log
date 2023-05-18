@@ -1,0 +1,45 @@
+[1.642s] Invoking command in '/ws/src/robo': PYTHONPATH=/ws/src/install/robo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robo build --build-base /ws/src/build/robo/build install --prefix /ws/src/install/robo --record /ws/src/build/robo/install.log --single-version-externally-managed
+[1.893s] running egg_info
+[1.893s] creating ../build/robo/robo.egg-info
+[1.895s] writing ../build/robo/robo.egg-info/PKG-INFO
+[1.895s] writing dependency_links to ../build/robo/robo.egg-info/dependency_links.txt
+[1.896s] writing entry points to ../build/robo/robo.egg-info/entry_points.txt
+[1.896s] writing requirements to ../build/robo/robo.egg-info/requires.txt
+[1.896s] writing top-level names to ../build/robo/robo.egg-info/top_level.txt
+[1.896s] writing manifest file '../build/robo/robo.egg-info/SOURCES.txt'
+[1.897s] reading manifest file '../build/robo/robo.egg-info/SOURCES.txt'
+[1.897s] writing manifest file '../build/robo/robo.egg-info/SOURCES.txt'
+[1.897s] running build
+[1.897s] running build_py
+[1.897s] creating /ws/src/build/robo/build
+[1.897s] creating /ws/src/build/robo/build/lib
+[1.897s] creating /ws/src/build/robo/build/lib/robo
+[1.897s] copying robo/__init__.py -> /ws/src/build/robo/build/lib/robo
+[1.897s] copying robo/move_circle.py -> /ws/src/build/robo/build/lib/robo
+[1.897s] copying robo/move.py -> /ws/src/build/robo/build/lib/robo
+[1.897s] copying robo/PathPublisher.py -> /ws/src/build/robo/build/lib/robo
+[1.897s] running install
+[1.898s] running install_lib
+[1.898s] creating /ws/src/install/robo/lib/python3.8/site-packages/robo
+[1.898s] copying /ws/src/build/robo/build/lib/robo/PathPublisher.py -> /ws/src/install/robo/lib/python3.8/site-packages/robo
+[1.898s] copying /ws/src/build/robo/build/lib/robo/move.py -> /ws/src/install/robo/lib/python3.8/site-packages/robo
+[1.898s] copying /ws/src/build/robo/build/lib/robo/__init__.py -> /ws/src/install/robo/lib/python3.8/site-packages/robo
+[1.898s] copying /ws/src/build/robo/build/lib/robo/move_circle.py -> /ws/src/install/robo/lib/python3.8/site-packages/robo
+[1.898s] byte-compiling /ws/src/install/robo/lib/python3.8/site-packages/robo/PathPublisher.py to PathPublisher.cpython-38.pyc
+[1.899s] byte-compiling /ws/src/install/robo/lib/python3.8/site-packages/robo/move.py to move.cpython-38.pyc
+[1.900s] byte-compiling /ws/src/install/robo/lib/python3.8/site-packages/robo/__init__.py to __init__.cpython-38.pyc
+[1.900s] byte-compiling /ws/src/install/robo/lib/python3.8/site-packages/robo/move_circle.py to move_circle.cpython-38.pyc
+[1.900s] running install_data
+[1.902s] creating /ws/src/install/robo/share/ament_index
+[1.902s] creating /ws/src/install/robo/share/ament_index/resource_index
+[1.902s] creating /ws/src/install/robo/share/ament_index/resource_index/packages
+[1.902s] copying resource/robo -> /ws/src/install/robo/share/ament_index/resource_index/packages
+[1.902s] copying package.xml -> /ws/src/install/robo/share/robo
+[1.902s] running install_egg_info
+[1.904s] Copying ../build/robo/robo.egg-info to /ws/src/install/robo/lib/python3.8/site-packages/robo-0.0.0-py3.8.egg-info
+[1.904s] running install_scripts
+[1.919s] Installing PathPublisher script to /ws/src/install/robo/lib/robo
+[1.920s] Installing move script to /ws/src/install/robo/lib/robo
+[1.920s] Installing move_circle script to /ws/src/install/robo/lib/robo
+[1.920s] writing list of installed files to '/ws/src/build/robo/install.log'
+[1.972s] Invoked command in '/ws/src/robo' returned '0': PYTHONPATH=/ws/src/install/robo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/robo build --build-base /ws/src/build/robo/build install --prefix /ws/src/install/robo --record /ws/src/build/robo/install.log --single-version-externally-managed

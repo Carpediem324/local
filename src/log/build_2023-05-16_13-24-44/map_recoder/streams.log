@@ -1,0 +1,37 @@
+[1.567s] Invoking command in '/ws/src/map_recoder': PYTHONPATH=/ws/src/install/map_recoder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/map_recoder build --build-base /ws/src/build/map_recoder/build install --prefix /ws/src/install/map_recoder --record /ws/src/build/map_recoder/install.log --single-version-externally-managed
+[1.807s] running egg_info
+[1.807s] creating ../build/map_recoder/map_recoder.egg-info
+[1.808s] writing ../build/map_recoder/map_recoder.egg-info/PKG-INFO
+[1.808s] writing dependency_links to ../build/map_recoder/map_recoder.egg-info/dependency_links.txt
+[1.808s] writing entry points to ../build/map_recoder/map_recoder.egg-info/entry_points.txt
+[1.809s] writing requirements to ../build/map_recoder/map_recoder.egg-info/requires.txt
+[1.809s] writing top-level names to ../build/map_recoder/map_recoder.egg-info/top_level.txt
+[1.813s] writing manifest file '../build/map_recoder/map_recoder.egg-info/SOURCES.txt'
+[1.865s] reading manifest file '../build/map_recoder/map_recoder.egg-info/SOURCES.txt'
+[1.865s] writing manifest file '../build/map_recoder/map_recoder.egg-info/SOURCES.txt'
+[1.865s] running build
+[1.866s] running build_py
+[1.866s] creating /ws/src/build/map_recoder/build
+[1.867s] creating /ws/src/build/map_recoder/build/lib
+[1.868s] creating /ws/src/build/map_recoder/build/lib/map_recoder
+[1.868s] copying map_recoder/map_recoder.py -> /ws/src/build/map_recoder/build/lib/map_recoder
+[1.868s] copying map_recoder/__init__.py -> /ws/src/build/map_recoder/build/lib/map_recoder
+[1.868s] running install
+[1.868s] running install_lib
+[1.868s] creating /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder
+[1.868s] copying /ws/src/build/map_recoder/build/lib/map_recoder/map_recoder.py -> /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder
+[1.868s] copying /ws/src/build/map_recoder/build/lib/map_recoder/__init__.py -> /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder
+[1.868s] byte-compiling /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder/map_recoder.py to map_recoder.cpython-38.pyc
+[1.870s] byte-compiling /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder/__init__.py to __init__.cpython-38.pyc
+[1.870s] running install_data
+[1.870s] creating /ws/src/install/map_recoder/share/ament_index
+[1.870s] creating /ws/src/install/map_recoder/share/ament_index/resource_index
+[1.870s] creating /ws/src/install/map_recoder/share/ament_index/resource_index/packages
+[1.870s] copying resource/map_recoder -> /ws/src/install/map_recoder/share/ament_index/resource_index/packages
+[1.870s] copying package.xml -> /ws/src/install/map_recoder/share/map_recoder
+[1.870s] running install_egg_info
+[1.871s] Copying ../build/map_recoder/map_recoder.egg-info to /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder-0.0.0-py3.8.egg-info
+[1.871s] running install_scripts
+[1.886s] Installing map_recoder script to /ws/src/install/map_recoder/lib/map_recoder
+[1.887s] writing list of installed files to '/ws/src/build/map_recoder/install.log'
+[1.938s] Invoked command in '/ws/src/map_recoder' returned '0': PYTHONPATH=/ws/src/install/map_recoder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/map_recoder build --build-base /ws/src/build/map_recoder/build install --prefix /ws/src/install/map_recoder --record /ws/src/build/map_recoder/install.log --single-version-externally-managed

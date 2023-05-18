@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+resource/robo
+robo/PathPublisher.py
+robo/__init__.py
+robo/move.py
+robo/move_circle.py
+robo.egg-info/PKG-INFO
+robo.egg-info/SOURCES.txt
+robo.egg-info/dependency_links.txt
+robo.egg-info/entry_points.txt
+robo.egg-info/requires.txt
+robo.egg-info/top_level.txt
+robo.egg-info/zip-safe

@@ -1,0 +1,47 @@
+[0.019s] Invoking command in '/ws/src/build/velodyne': AMENT_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:/opt/ros/foxy LD_LIBRARY_PATH=/ws/src/install/velodyne_pointcloud/lib:/ws/src/install/velodyne_driver/lib:/ws/src/install/velodyne_msgs/lib:/ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/src/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /ws/src/velodyne/velodyne -DCMAKE_INSTALL_PREFIX=/ws/src/install/velodyne
+[0.088s] -- The C compiler identification is GNU 9.4.0
+[0.146s] -- The CXX compiler identification is GNU 9.4.0
+[0.151s] -- Check for working C compiler: /usr/bin/cc
+[0.223s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.225s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.323s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.431s] -- Detecting CXX compiler ABI info
+[0.523s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Detecting CXX compile features
+[0.536s] -- Detecting CXX compile features - done
+[0.539s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.565s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.565s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.771s] -- Configuring done
+[0.773s] -- Generating done
+[0.773s] -- Build files have been written to: /ws/src/build/velodyne
+[0.777s] Invoked command in '/ws/src/build/velodyne' returned '0': AMENT_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:/opt/ros/foxy LD_LIBRARY_PATH=/ws/src/install/velodyne_pointcloud/lib:/ws/src/install/velodyne_driver/lib:/ws/src/install/velodyne_msgs/lib:/ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/src/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /ws/src/velodyne/velodyne -DCMAKE_INSTALL_PREFIX=/ws/src/install/velodyne
+[0.781s] Invoking command in '/ws/src/build/velodyne': AMENT_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:/opt/ros/foxy LD_LIBRARY_PATH=/ws/src/install/velodyne_pointcloud/lib:/ws/src/install/velodyne_driver/lib:/ws/src/install/velodyne_msgs/lib:/ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/src/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ws/src/build/velodyne -- -j16 -l16
+[0.820s] Invoked command in '/ws/src/build/velodyne' returned '0': AMENT_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:/opt/ros/foxy LD_LIBRARY_PATH=/ws/src/install/velodyne_pointcloud/lib:/ws/src/install/velodyne_driver/lib:/ws/src/install/velodyne_msgs/lib:/ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/src/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ws/src/build/velodyne -- -j16 -l16
+[0.849s] Invoking command in '/ws/src/build/velodyne': AMENT_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:/opt/ros/foxy LD_LIBRARY_PATH=/ws/src/install/velodyne_pointcloud/lib:/ws/src/install/velodyne_driver/lib:/ws/src/install/velodyne_msgs/lib:/ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/src/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ws/src/build/velodyne
+[0.863s] -- Install configuration: ""
+[0.863s] -- Installing: /ws/src/install/velodyne/share/velodyne/launch
+[0.863s] -- Installing: /ws/src/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP32C-composed-launch.py
+[0.863s] -- Installing: /ws/src/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP16-composed-launch.py
+[0.864s] -- Installing: /ws/src/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP32C-launch.py
+[0.864s] -- Installing: /ws/src/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP16-launch.py
+[0.864s] -- Installing: /ws/src/install/velodyne/share/ament_index/resource_index/package_run_dependencies/velodyne
+[0.864s] -- Installing: /ws/src/install/velodyne/share/ament_index/resource_index/parent_prefix_path/velodyne
+[0.864s] -- Installing: /ws/src/install/velodyne/share/velodyne/environment/ament_prefix_path.sh
+[0.864s] -- Installing: /ws/src/install/velodyne/share/velodyne/environment/ament_prefix_path.dsv
+[0.864s] -- Installing: /ws/src/install/velodyne/share/velodyne/environment/path.sh
+[0.865s] -- Installing: /ws/src/install/velodyne/share/velodyne/environment/path.dsv
+[0.865s] -- Installing: /ws/src/install/velodyne/share/velodyne/local_setup.bash
+[0.865s] -- Installing: /ws/src/install/velodyne/share/velodyne/local_setup.sh
+[0.865s] -- Installing: /ws/src/install/velodyne/share/velodyne/local_setup.zsh
+[0.865s] -- Installing: /ws/src/install/velodyne/share/velodyne/local_setup.dsv
+[0.865s] -- Installing: /ws/src/install/velodyne/share/velodyne/package.dsv
+[0.865s] -- Installing: /ws/src/install/velodyne/share/ament_index/resource_index/packages/velodyne
+[0.865s] -- Installing: /ws/src/install/velodyne/share/velodyne/cmake/velodyneConfig.cmake
+[0.866s] -- Installing: /ws/src/install/velodyne/share/velodyne/cmake/velodyneConfig-version.cmake
+[0.866s] -- Installing: /ws/src/install/velodyne/share/velodyne/package.xml
+[0.872s] Invoked command in '/ws/src/build/velodyne' returned '0': AMENT_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ws/src/install/velodyne_pointcloud:/ws/src/install/velodyne_driver:/ws/src/install/velodyne_msgs:/ws/src/install/velodyne_laserscan:/opt/ros/foxy LD_LIBRARY_PATH=/ws/src/install/velodyne_pointcloud/lib:/ws/src/install/velodyne_driver/lib:/ws/src/install/velodyne_msgs/lib:/ws/src/install/velodyne_laserscan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/ws/src/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ws/src/build/velodyne

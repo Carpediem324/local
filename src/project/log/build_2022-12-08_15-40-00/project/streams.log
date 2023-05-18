@@ -1,0 +1,17 @@
+[0.593s] Invoking command in '/ws/src/project/build/project': PYTHONPATH=/ws/src/project/install/project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /ws/src/project/install/project --editable --build-directory /ws/src/project/build/project/build --no-deps install_data --install-dir /ws/src/project/install/project
+[0.787s] running develop
+[0.877s] running egg_info
+[0.877s] writing project.egg-info/PKG-INFO
+[0.877s] writing dependency_links to project.egg-info/dependency_links.txt
+[0.877s] writing entry points to project.egg-info/entry_points.txt
+[0.878s] writing requirements to project.egg-info/requires.txt
+[0.878s] writing top-level names to project.egg-info/top_level.txt
+[0.907s] reading manifest file 'project.egg-info/SOURCES.txt'
+[0.909s] writing manifest file 'project.egg-info/SOURCES.txt'
+[0.945s] running build_ext
+[0.945s] Creating /ws/src/project/install/project/lib/python3.8/site-packages/project.egg-link (link to .)
+[0.947s] Installing maze script to /ws/src/project/install/project/lib/project
+[0.948s] 
+[0.948s] Installed /ws/src/project/build/project
+[0.948s] running install_data
+[0.985s] Invoked command in '/ws/src/project/build/project' returned '0': PYTHONPATH=/ws/src/project/install/project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /ws/src/project/install/project --editable --build-directory /ws/src/project/build/project/build --no-deps install_data --install-dir /ws/src/project/install/project

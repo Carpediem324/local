@@ -1,0 +1,24 @@
+[0.568s] Invoking command in '/ws/src/project': PYTHONPATH=/ws/src/project/install/project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/project build --build-base /ws/src/project/build/project/build install --prefix /ws/src/project/install/project --record /ws/src/project/build/project/install.log --single-version-externally-managed
+[0.747s] running egg_info
+[0.748s] writing build/project/project.egg-info/PKG-INFO
+[0.748s] writing dependency_links to build/project/project.egg-info/dependency_links.txt
+[0.748s] writing entry points to build/project/project.egg-info/entry_points.txt
+[0.748s] writing requirements to build/project/project.egg-info/requires.txt
+[0.749s] writing top-level names to build/project/project.egg-info/top_level.txt
+[0.780s] reading manifest file 'build/project/project.egg-info/SOURCES.txt'
+[0.781s] writing manifest file 'build/project/project.egg-info/SOURCES.txt'
+[0.781s] running build
+[0.781s] running build_py
+[0.781s] copying project/maze.py -> /ws/src/project/build/project/build/lib/project
+[0.782s] running install
+[0.782s] running install_lib
+[0.783s] copying /ws/src/project/build/project/build/lib/project/maze.py -> /ws/src/project/install/project/lib/python3.8/site-packages/project
+[0.784s] byte-compiling /ws/src/project/install/project/lib/python3.8/site-packages/project/maze.py to maze.cpython-38.pyc
+[0.786s] running install_data
+[0.787s] running install_egg_info
+[0.788s] removing '/ws/src/project/install/project/lib/python3.8/site-packages/project-0.0.0-py3.8.egg-info' (and everything under it)
+[0.788s] Copying build/project/project.egg-info to /ws/src/project/install/project/lib/python3.8/site-packages/project-0.0.0-py3.8.egg-info
+[0.789s] running install_scripts
+[0.806s] Installing maze script to /ws/src/project/install/project/lib/project
+[0.807s] writing list of installed files to '/ws/src/project/build/project/install.log'
+[0.835s] Invoked command in '/ws/src/project' returned '0': PYTHONPATH=/ws/src/project/install/project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/project build --build-base /ws/src/project/build/project/build install --prefix /ws/src/project/install/project --record /ws/src/project/build/project/install.log --single-version-externally-managed

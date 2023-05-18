@@ -1,0 +1,3 @@
+[console_scripts]
+imu_publisher = my_imu_pkg.imu_publisher:main
+

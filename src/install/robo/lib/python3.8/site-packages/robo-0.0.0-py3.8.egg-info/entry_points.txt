@@ -1,0 +1,5 @@
+[console_scripts]
+PathPublisher = robo.PathPublisher:main
+move = robo.move:move
+move_circle = robo.move_circle:main
+

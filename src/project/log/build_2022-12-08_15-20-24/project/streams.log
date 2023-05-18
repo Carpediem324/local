@@ -1,0 +1,37 @@
+[0.713s] Invoking command in '/ws/src/project': PYTHONPATH=/ws/src/project/install/project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/project build --build-base /ws/src/project/build/project/build install --prefix /ws/src/project/install/project --record /ws/src/project/build/project/install.log --single-version-externally-managed
+[0.880s] running egg_info
+[0.880s] creating build/project/project.egg-info
+[0.880s] writing build/project/project.egg-info/PKG-INFO
+[0.880s] writing dependency_links to build/project/project.egg-info/dependency_links.txt
+[0.881s] writing entry points to build/project/project.egg-info/entry_points.txt
+[0.881s] writing requirements to build/project/project.egg-info/requires.txt
+[0.881s] writing top-level names to build/project/project.egg-info/top_level.txt
+[0.887s] writing manifest file 'build/project/project.egg-info/SOURCES.txt'
+[0.917s] reading manifest file 'build/project/project.egg-info/SOURCES.txt'
+[0.917s] writing manifest file 'build/project/project.egg-info/SOURCES.txt'
+[0.917s] running build
+[0.917s] running build_py
+[0.917s] creating /ws/src/project/build/project/build
+[0.918s] creating /ws/src/project/build/project/build/lib
+[0.918s] creating /ws/src/project/build/project/build/lib/project
+[0.918s] copying project/__init__.py -> /ws/src/project/build/project/build/lib/project
+[0.918s] copying project/maze.py -> /ws/src/project/build/project/build/lib/project
+[0.918s] running install
+[0.919s] running install_lib
+[0.920s] creating /ws/src/project/install/project/lib/python3.8/site-packages/project
+[0.920s] copying /ws/src/project/build/project/build/lib/project/__init__.py -> /ws/src/project/install/project/lib/python3.8/site-packages/project
+[0.920s] copying /ws/src/project/build/project/build/lib/project/maze.py -> /ws/src/project/install/project/lib/python3.8/site-packages/project
+[0.921s] byte-compiling /ws/src/project/install/project/lib/python3.8/site-packages/project/__init__.py to __init__.cpython-38.pyc
+[0.922s] byte-compiling /ws/src/project/install/project/lib/python3.8/site-packages/project/maze.py to maze.cpython-38.pyc
+[0.922s] running install_data
+[0.923s] creating /ws/src/project/install/project/share/ament_index
+[0.923s] creating /ws/src/project/install/project/share/ament_index/resource_index
+[0.923s] creating /ws/src/project/install/project/share/ament_index/resource_index/packages
+[0.923s] copying resource/project -> /ws/src/project/install/project/share/ament_index/resource_index/packages
+[0.923s] copying package.xml -> /ws/src/project/install/project/share/project
+[0.923s] running install_egg_info
+[0.925s] Copying build/project/project.egg-info to /ws/src/project/install/project/lib/python3.8/site-packages/project-0.0.0-py3.8.egg-info
+[0.927s] running install_scripts
+[0.944s] Installing maze script to /ws/src/project/install/project/lib/project
+[0.944s] writing list of installed files to '/ws/src/project/build/project/install.log'
+[0.972s] Invoked command in '/ws/src/project' returned '0': PYTHONPATH=/ws/src/project/install/project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/project build --build-base /ws/src/project/build/project/build install --prefix /ws/src/project/install/project --record /ws/src/project/build/project/install.log --single-version-externally-managed

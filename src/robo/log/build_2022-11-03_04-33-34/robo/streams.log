@@ -1,0 +1,17 @@
+[1.006s] Invoking command in '/ws/src/robo/build/robo': PYTHONPATH=/ws/src/robo/install/robo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /ws/src/robo/install/robo --editable --build-directory /ws/src/robo/build/robo/build --no-deps install_data --install-dir /ws/src/robo/install/robo
+[1.257s] running develop
+[1.353s] running egg_info
+[1.354s] writing robo.egg-info/PKG-INFO
+[1.354s] writing dependency_links to robo.egg-info/dependency_links.txt
+[1.355s] writing entry points to robo.egg-info/entry_points.txt
+[1.355s] writing requirements to robo.egg-info/requires.txt
+[1.356s] writing top-level names to robo.egg-info/top_level.txt
+[1.393s] reading manifest file 'robo.egg-info/SOURCES.txt'
+[1.395s] writing manifest file 'robo.egg-info/SOURCES.txt'
+[1.439s] running build_ext
+[1.439s] Creating /ws/src/robo/install/robo/lib/python3.8/site-packages/robo.egg-link (link to .)
+[1.440s] Installing move_circle script to /ws/src/robo/install/robo/lib/robo
+[1.441s] 
+[1.441s] Installed /ws/src/robo/build/robo
+[1.441s] running install_data
+[1.533s] Invoked command in '/ws/src/robo/build/robo' returned '0': PYTHONPATH=/ws/src/robo/install/robo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /ws/src/robo/install/robo --editable --build-directory /ws/src/robo/build/robo/build --no-deps install_data --install-dir /ws/src/robo/install/robo

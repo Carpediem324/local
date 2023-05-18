@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing project.egg-info/PKG-INFO
+writing dependency_links to project.egg-info/dependency_links.txt
+writing entry points to project.egg-info/entry_points.txt
+writing requirements to project.egg-info/requires.txt
+writing top-level names to project.egg-info/top_level.txt
+reading manifest file 'project.egg-info/SOURCES.txt'
+writing manifest file 'project.egg-info/SOURCES.txt'
+running build_ext
+Creating /ws/src/project/install/project/lib/python3.8/site-packages/project.egg-link (link to .)
+Installing maze script to /ws/src/project/install/project/lib/project
+
+Installed /ws/src/project/build/project
+running install_data

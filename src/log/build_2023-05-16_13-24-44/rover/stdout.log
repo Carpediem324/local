@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found gazebo_msgs: 3.5.3 (/opt/ros/foxy/share/gazebo_msgs/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /ws/src/build/rover
+-- Install configuration: ""
+-- Installing: /ws/src/install/rover/share/rover/launch
+-- Installing: /ws/src/install/rover/share/rover/launch/rover1.launch.py
+-- Installing: /ws/src/install/rover/share/rover/launch/rover.launch.py
+-- Installing: /ws/src/install/rover/share/rover/models
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_depth_camera
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_depth_camera/model.config
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_depth_camera/model.sdf
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_depth_camera/README.md
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_camera
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_camera/model.config
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_camera/model.sdf
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_camera/README.md
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_1d_lidar
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_1d_lidar/model.config
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_1d_lidar/model.sdf
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_1d_lidar/README.md
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/bicep.stl
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/wheel.stl
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/wrist.stl
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/arm_base.stl
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/elbow.stl
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/meshes/robot_base.stl
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/model.config
+-- Installing: /ws/src/install/rover/share/rover/models/basic_mobile_bot_description/model.sdf
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_2d_lidar
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_2d_lidar/model.config
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_2d_lidar/model.sdf
+-- Installing: /ws/src/install/rover/share/rover/models/rover_with_2d_lidar/README.md
+-- Installing: /ws/src/install/rover/share/rover/models/project_model
+-- Installing: /ws/src/install/rover/share/rover/models/project_model/model.config
+-- Installing: /ws/src/install/rover/share/rover/models/project_model/model.sdf
+-- Installing: /ws/src/install/rover/share/rover/models/project_model/README.md
+-- Installing: /ws/src/install/rover/share/rover/src
+-- Installing: /ws/src/install/rover/share/rover/worlds
+-- Installing: /ws/src/install/rover/share/rover/worlds/race3.world
+-- Installing: /ws/src/install/rover/share/rover/worlds/race1.world
+-- Installing: /ws/src/install/rover/share/rover/worlds/race4.world
+-- Installing: /ws/src/install/rover/share/rover/worlds/race2.world
+-- Installing: /ws/src/install/rover/share/ament_index/resource_index/package_run_dependencies/rover
+-- Installing: /ws/src/install/rover/share/ament_index/resource_index/parent_prefix_path/rover
+-- Installing: /ws/src/install/rover/share/rover/environment/ament_prefix_path.sh
+-- Installing: /ws/src/install/rover/share/rover/environment/ament_prefix_path.dsv
+-- Installing: /ws/src/install/rover/share/rover/environment/path.sh
+-- Installing: /ws/src/install/rover/share/rover/environment/path.dsv
+-- Installing: /ws/src/install/rover/share/rover/local_setup.bash
+-- Installing: /ws/src/install/rover/share/rover/local_setup.sh
+-- Installing: /ws/src/install/rover/share/rover/local_setup.zsh
+-- Installing: /ws/src/install/rover/share/rover/local_setup.dsv
+-- Installing: /ws/src/install/rover/share/rover/package.dsv
+-- Installing: /ws/src/install/rover/share/ament_index/resource_index/packages/rover
+-- Installing: /ws/src/install/rover/share/rover/cmake/roverConfig.cmake
+-- Installing: /ws/src/install/rover/share/rover/cmake/roverConfig-version.cmake
+-- Installing: /ws/src/install/rover/share/rover/package.xml

@@ -1,0 +1,7 @@
+{
+  "package_name": "gpsx",
+  "non_idl_tuples": [
+    "/ws/src/ros2GPSx/gpsx:msg/Gpsx.msg",
+    "/ws/src/ros2GPSx/gpsx:srv/GetSatList.srv"
+  ]
+}

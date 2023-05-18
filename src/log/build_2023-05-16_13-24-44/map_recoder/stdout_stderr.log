@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/map_recoder/map_recoder.egg-info
+writing ../build/map_recoder/map_recoder.egg-info/PKG-INFO
+writing dependency_links to ../build/map_recoder/map_recoder.egg-info/dependency_links.txt
+writing entry points to ../build/map_recoder/map_recoder.egg-info/entry_points.txt
+writing requirements to ../build/map_recoder/map_recoder.egg-info/requires.txt
+writing top-level names to ../build/map_recoder/map_recoder.egg-info/top_level.txt
+writing manifest file '../build/map_recoder/map_recoder.egg-info/SOURCES.txt'
+reading manifest file '../build/map_recoder/map_recoder.egg-info/SOURCES.txt'
+writing manifest file '../build/map_recoder/map_recoder.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ws/src/build/map_recoder/build
+creating /ws/src/build/map_recoder/build/lib
+creating /ws/src/build/map_recoder/build/lib/map_recoder
+copying map_recoder/map_recoder.py -> /ws/src/build/map_recoder/build/lib/map_recoder
+copying map_recoder/__init__.py -> /ws/src/build/map_recoder/build/lib/map_recoder
+running install
+running install_lib
+creating /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder
+copying /ws/src/build/map_recoder/build/lib/map_recoder/map_recoder.py -> /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder
+copying /ws/src/build/map_recoder/build/lib/map_recoder/__init__.py -> /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder
+byte-compiling /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder/map_recoder.py to map_recoder.cpython-38.pyc
+byte-compiling /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /ws/src/install/map_recoder/share/ament_index
+creating /ws/src/install/map_recoder/share/ament_index/resource_index
+creating /ws/src/install/map_recoder/share/ament_index/resource_index/packages
+copying resource/map_recoder -> /ws/src/install/map_recoder/share/ament_index/resource_index/packages
+copying package.xml -> /ws/src/install/map_recoder/share/map_recoder
+running install_egg_info
+Copying ../build/map_recoder/map_recoder.egg-info to /ws/src/install/map_recoder/lib/python3.8/site-packages/map_recoder-0.0.0-py3.8.egg-info
+running install_scripts
+Installing map_recoder script to /ws/src/install/map_recoder/lib/map_recoder
+writing list of installed files to '/ws/src/build/map_recoder/install.log'

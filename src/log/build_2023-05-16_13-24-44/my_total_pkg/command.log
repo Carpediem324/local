@@ -1,0 +1,6 @@
+Invoking command in '/ws/src/build/my_total_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/my_total_pkg -DCMAKE_INSTALL_PREFIX=/ws/src/install/my_total_pkg
+Invoked command in '/ws/src/build/my_total_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/my_total_pkg -DCMAKE_INSTALL_PREFIX=/ws/src/install/my_total_pkg
+Invoking command in '/ws/src/build/my_total_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/my_total_pkg -- -j16 -l16
+Invoked command in '/ws/src/build/my_total_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/my_total_pkg -- -j16 -l16
+Invoking command in '/ws/src/build/my_total_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/my_total_pkg
+Invoked command in '/ws/src/build/my_total_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/my_total_pkg

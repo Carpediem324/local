@@ -1,0 +1,49 @@
+[0.069s] Invoking command in '/ws/src/lec_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/lec_ws/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/ws/src/lec_ws/install/urdf_tutorial
+[0.702s] -- The C compiler identification is GNU 9.4.0
+[1.032s] -- The CXX compiler identification is GNU 9.4.0
+[1.065s] -- Check for working C compiler: /usr/bin/cc
+[1.241s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.246s] -- Detecting C compiler ABI info
+[1.405s] -- Detecting C compiler ABI info - done
+[1.434s] -- Detecting C compile features
+[1.436s] -- Detecting C compile features - done
+[1.447s] -- Check for working CXX compiler: /usr/bin/c++
+[1.631s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.634s] -- Detecting CXX compiler ABI info
+[1.820s] -- Detecting CXX compiler ABI info - done
+[1.849s] -- Detecting CXX compile features
+[1.850s] -- Detecting CXX compile features - done
+[1.873s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.945s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.946s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.440s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.584s] -- Configuring done
+[2.591s] -- Generating done
+[2.594s] -- Build files have been written to: /ws/src/lec_ws/build/urdf_tutorial
+[2.602s] Invoked command in '/ws/src/lec_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/lec_ws/src/urdf_tutorial -DCMAKE_INSTALL_PREFIX=/ws/src/lec_ws/install/urdf_tutorial
+[2.609s] Invoking command in '/ws/src/lec_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/lec_ws/build/urdf_tutorial -- -j8 -l8
+[2.703s] Invoked command in '/ws/src/lec_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/lec_ws/build/urdf_tutorial -- -j8 -l8
+[2.782s] Invoking command in '/ws/src/lec_ws/build/urdf_tutorial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/lec_ws/build/urdf_tutorial
+[2.802s] -- Install configuration: ""
+[2.803s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/launch
+[2.803s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch.py
+[2.804s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/rviz
+[2.804s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz
+[2.804s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/urdf
+[2.804s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst.urdf
+[2.805s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+[2.806s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+[2.807s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+[2.808s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+[2.809s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+[2.810s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+[2.810s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+[2.811s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+[2.812s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+[2.812s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+[2.813s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+[2.814s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+[2.815s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+[2.816s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+[2.817s] -- Installing: /ws/src/lec_ws/install/urdf_tutorial/share/urdf_tutorial/package.xml
+[2.822s] Invoked command in '/ws/src/lec_ws/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/lec_ws/build/urdf_tutorial

@@ -1,0 +1,36 @@
+[0.037s] Invoking command in '/ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /ws/src/lec_ws/src/urdf_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial
+[0.075s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.123s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.455s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.475s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.607s] -- Configuring done
+[0.624s] -- Generating done
+[0.632s] -- Build files have been written to: /ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial
+[0.638s] Invoked command in '/ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /ws/src/lec_ws/src/urdf_tutorial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial
+[0.646s] Invoking command in '/ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial -- -j8 -l8
+[0.727s] Invoked command in '/ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial -- -j8 -l8
+[0.803s] Invoking command in '/ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial
+[0.820s] -- Install configuration: ""
+[0.822s] -- Execute custom install script
+[0.823s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/launch/display.launch.py
+[0.824s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/rviz/urdf.rviz
+[0.825s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/urdf/01-myfirst.urdf
+[0.825s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/urdf/02-multipleshapes.urdf
+[0.826s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/urdf/03-origins.urdf
+[0.827s] -- Symlinking: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/urdf/04-materials.urdf
+[0.845s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/ament_index/resource_index/package_run_dependencies/urdf_tutorial
+[0.846s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/ament_index/resource_index/parent_prefix_path/urdf_tutorial
+[0.847s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.sh
+[0.848s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/environment/ament_prefix_path.dsv
+[0.849s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/environment/path.sh
+[0.850s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/environment/path.dsv
+[0.851s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/local_setup.bash
+[0.851s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/local_setup.sh
+[0.852s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/local_setup.zsh
+[0.853s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/local_setup.dsv
+[0.854s] -- Symlinking: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/package.dsv
+[0.874s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/ament_index/resource_index/packages/urdf_tutorial
+[0.874s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+[0.875s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+[0.876s] -- Up-to-date symlink: /ws/src/lec_ws/src/urdf_tutorial/install/urdf_tutorial/share/urdf_tutorial/package.xml
+[0.882s] Invoked command in '/ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /ws/src/lec_ws/src/urdf_tutorial/build/urdf_tutorial

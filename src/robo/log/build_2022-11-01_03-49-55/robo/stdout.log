@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing robo.egg-info/PKG-INFO
+writing dependency_links to robo.egg-info/dependency_links.txt
+writing entry points to robo.egg-info/entry_points.txt
+writing requirements to robo.egg-info/requires.txt
+writing top-level names to robo.egg-info/top_level.txt
+reading manifest file 'robo.egg-info/SOURCES.txt'
+writing manifest file 'robo.egg-info/SOURCES.txt'
+running build_ext
+Creating /ws/src/robo/install/robo/lib/python3.8/site-packages/robo.egg-link (link to .)
+
+Installed /ws/src/robo/build/robo
+running install_data

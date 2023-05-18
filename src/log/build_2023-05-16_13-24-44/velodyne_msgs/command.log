@@ -1,0 +1,6 @@
+Invoking command in '/ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/ws/src/install/velodyne_msgs
+Invoked command in '/ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /ws/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/ws/src/install/velodyne_msgs
+Invoking command in '/ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/velodyne_msgs -- -j16 -l16
+Invoked command in '/ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /ws/src/build/velodyne_msgs -- -j16 -l16
+Invoking command in '/ws/src/build/velodyne_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/velodyne_msgs
+Invoked command in '/ws/src/build/velodyne_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /ws/src/build/velodyne_msgs

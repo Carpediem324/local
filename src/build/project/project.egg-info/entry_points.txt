@@ -1,0 +1,3 @@
+[console_scripts]
+maze1 = project.maze1:main
+
